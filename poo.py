@@ -17,3 +17,9 @@ class Teclado:
 
 nossoTeclado = Teclado("Membrana", "Logitech", False)
 print(nossoTeclado.marca)
+
+teclado1 = Teclado("Mecânico", "Hyperx", True)
+print(nossoTeclado.mecanismo)
+
+teclado2 = Teclado("Mecânico", "Dell", False)
+print(nossoTeclado.bluetooth)
