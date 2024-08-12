@@ -10,6 +10,8 @@ caneca1 = Caneca("Top Caneca", "Stanley", "700mL")
 caneca2 = Caneca("Canequinha", "Pacco", "525mL")
 
 class Teclado:
+    cor = "Preto"
+
     def __init__(self, mecanismo, marca, bluetooth):
         self.mecanismo = mecanismo
         self.marca = marca
@@ -23,3 +25,5 @@ print(nossoTeclado.mecanismo)
 
 teclado2 = Teclado("Mecânico", "Dell", False)
 print(nossoTeclado.bluetooth)
+
+print(nossoTeclado.cor)
