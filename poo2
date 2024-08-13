@@ -1,0 +1,13 @@
+class Jogos:
+    
+
+    def __init__(self, nome, desenvolvedora, plataforma, genero):
+        self.nome = nome
+        self.marca = desenvolvedora
+        self.capacidade = plataforma
+        self.genero = genero
+
+jogo1 = Jogos("Minecraft", "Mojang", "Multiplataforma", "Sandbox")
+jogo2 = Jogos("Hollow Knight", "Team Cherry", "Multiplataforma", "Metroidvania")
+jogo3 = Jogos("Spider-Man: Miles Morales", "Imsomniac", "PS", "Ação/Aventura")
+jogo4 = Jogos("Forza Horizon 5", "Playground", "Xbox", "Corrida")

@@ -1,0 +1,10 @@
+def multiply(a, b):
+    return a * b
+
+resultado = multiply(3, 5) # Definir os números a serem multiplicados
+
+def falandinho():
+    print("Salve, Salve!")
+
+falandinho() 
+print(resultado)  
